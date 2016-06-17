@@ -1,7 +1,8 @@
 # Env variables
-export GOPATH=$HOME/code/go
+#export GOPATH=$HOME/code/go
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home'
-export PATH=$PATH:$GOPATH/bin:$JAVA_HOME
+export ELIXIR='/usr/local/Cellar/elixir/1.2.4'
+export PATH=$PATH:$GOPATH/bin:$JAVA_HOME:$ELIXIR/bin
 
 
 # Finder - show/hide hidden files
@@ -22,3 +23,5 @@ alias stop_es='launchctl unload /usr/local/opt/elasticsearch/homebrew.mxcl.elast
 
 # Reload conf files
 alias s='tmux source-file ~/.tmux.conf && source ~/.vimrc && source ~/.bash_profile'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
