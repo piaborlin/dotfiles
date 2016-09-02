@@ -29,4 +29,5 @@ alias mex='iex -S mix phoenix.server'
 # git
 alias gs='git status'
 alias gd='git diff'
+alias gds='git diff --staged'
 alias gl='git log'
