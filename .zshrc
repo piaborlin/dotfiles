@@ -17,8 +17,16 @@ export PATH=$PATH:$ELIXIR/bin:$JAVA_HOME:$RVM
 
 source $ZSH/oh-my-zsh.sh
 
-# Example aliases
-alias mex='iex -S mix phoenix.server'
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# aliases
 
+#config
+alias s='source ~/.zshrc'
+alias z='vim ~/.zshrc'
+
+# Elexir
+alias mex='iex -S mix phoenix.server'
+
+# git
+alias gs='git status'
+alias gd='git diff'
+alias gl='git log'
