@@ -1,0 +1,20 @@
+[user]
+	name = Pia Börlin
+	useConfigOnly = true
+
+[alias]
+	a = add
+	ci = commit
+	co = checkout
+	cp = cherry-pick
+	l = log --pretty=compact --date=relative --topo-order
+	ps = push
+	rb = rebase
+	ri = rebase --interactive
+	rs = reset
+	st = status
+
+[log]
+	decorate = short
+[core]
+	editor = /usr/bin/vim
