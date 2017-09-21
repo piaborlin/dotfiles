@@ -23,7 +23,7 @@ filetype plugin indent on                   " Enable filetype detection
 set spelllang=en_gb                         " Set spell checker language
 autocmd FileType gitcommit setlocal spell   " Turn on spell checker for Git commit messages
 
-
+set backspace=indent,eol,start              " Make backspace work (needed for bash)
 
 " COLORS
 " ------------------------------------------------------------------------------
