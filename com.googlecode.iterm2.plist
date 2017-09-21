@@ -12,6 +12,8 @@
 	<string>E2A39AC9-124A-46CA-8EDC-8C6F48F69296</string>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 1</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/dotfiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -47,10 +49,18 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>524 110 850 202 0 0 1440 877 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>410 378 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>285 183 796 473 0 0 1440 877 </string>
+	<string>481 264 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>181 123 1046 656 0 0 1440 877 </string>
+	<string>240 311 570 452 0 0 1440 877 </string>
+	<key>NeverWarnAboutShortLivedSessions_E2A39AC9-124A-46CA-8EDC-8C6F48F69296</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_E2A39AC9-124A-46CA-8EDC-8C6F48F69296_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -255,7 +265,7 @@
 				<real>1</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>Yes</string>
+			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -649,6 +659,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>CF3F4670-1628-41FA-9679-2BF8FB65148B</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -697,7 +711,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-18T19:27:21Z</date>
+	<date>2017-09-21T08:34:27Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
