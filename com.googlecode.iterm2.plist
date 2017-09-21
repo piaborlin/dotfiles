@@ -50,13 +50,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>524 110 850 202 0 0 1440 877 </string>
+	<string>524 95 850 343 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 378 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>481 264 796 473 0 0 1440 877 </string>
+	<string>480 198 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>240 311 570 452 0 0 1440 877 </string>
+	<string>240 175 906 588 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_E2A39AC9-124A-46CA-8EDC-8C6F48F69296</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_E2A39AC9-124A-46CA-8EDC-8C6F48F69296_selection</key>
@@ -590,7 +590,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>RobotoMonoForPowerline-Medium 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
