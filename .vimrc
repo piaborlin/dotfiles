@@ -25,6 +25,8 @@ autocmd FileType gitcommit setlocal spell   " Turn on spell checker for Git comm
 
 set backspace=indent,eol,start              " Make backspace work (needed for bash)
 
+set nu                                      " Show line numbers
+
 " COLORS
 " ------------------------------------------------------------------------------
 
