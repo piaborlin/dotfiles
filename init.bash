@@ -9,3 +9,5 @@ _link dotfiles/.bash_profile ${HOME}/.bash_profile
 _link dotfiles/.bash ${HOME}/.bash
 _link dotfiles/.vimrc ${HOME}/.vimrc
 _link dotfiles/.gitconfig ${HOME}/.gitconfig
+
+_link ${HOME}/dotfiles/scripts/travis-script.bash /usr/local/bin/travis-script
