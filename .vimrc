@@ -27,6 +27,8 @@ set backspace=indent,eol,start              " Make backspace work (needed for ba
 
 set nu                                      " Show line numbers
 
+set tabstop=2                               " Size of a tab
+
 " COLORS
 " ------------------------------------------------------------------------------
 
