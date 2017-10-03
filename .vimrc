@@ -69,3 +69,6 @@ nnoremap <C-H> <C-W><C-H>
 " Tab between buffers
 noremap <tab> <c-w>w
 noremap <S-tab> <c-w>W
+
+"Use goimports instead of gofmt
+let g:go_fmt_command = "goimports"
