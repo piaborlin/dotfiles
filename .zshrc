@@ -10,20 +10,17 @@ plugins=(git)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export GOPATH="$HOME/go"
 export ELIXIR='/usr/local/Cellar/elixir/1.2.4'
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home'
-export RVM="$HOME/.rvm/bin"
-export PATH=$PATH:$ELIXIR/bin:$JAVA_HOME:$RVM
+export PATH=$HOME/bin:$PATH:$GOPATH/bin:$ELIXIR/bin
 
 source $ZSH/oh-my-zsh.sh
 
 # aliases
+#paths
+alias tv4go='cd /Users/piaborlin/go/src/github.com/TV4'
 
-#config
-alias s='source ~/.zshrc'
-alias z='vim ~/.zshrc'
-
-# Elexir
+# elexir
 alias mex='iex -S mix phoenix.server'
 
 # git
