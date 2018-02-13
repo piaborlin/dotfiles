@@ -10,5 +10,6 @@ _link dotfiles/.bash ${HOME}/.bash
 _link dotfiles/.vimrc ${HOME}/.vimrc
 _link dotfiles/.gitconfig ${HOME}/.gitconfig
 _link dotfiles/.gitignore ${HOME}/.gitignore
+_link dotfiles/.zshrc ${HOME}/.zshrc
 
 _link ${HOME}/dotfiles/scripts/travis-script.bash /usr/local/bin/travis-script
