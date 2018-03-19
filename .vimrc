@@ -36,6 +36,8 @@ set nu                                      " Show line numbers
 
 set tabstop=2                               " Size of a tab
 
+setlocal omnifunc=go#complete#Complete      " autocomplete for go
+
 " COLORS
 " ------------------------------------------------------------------------------
 
