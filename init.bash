@@ -14,3 +14,4 @@ _link dotfiles/.gitignore ${HOME}/.gitignore
 _link dotfiles/.zshrc ${HOME}/.zshrc
 
 _link ${HOME}/dotfiles/scripts/travis-script.bash /usr/local/bin/travis-script
+_link ${HOME}/dotfiles/fish ${HOME}/.config
