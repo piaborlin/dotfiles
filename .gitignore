@@ -3,3 +3,6 @@
 
 # VIM swap files
 *.swp
+
+# Environment variables that is used when running with-env command (fish)
+.env
