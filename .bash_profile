@@ -4,6 +4,9 @@ if [[ -f $THEME ]]; then
     source $THEME
 fi
 
+# Activate command-line fuzzy finder (https://github.com/junegunn/fzf)
+source "/usr/local/Cellar/fzf/0.17.4/shell/completion.bash" && source "/usr/local/Cellar/fzf/0.17.4/shell/key-bindings.bash"
+
 # Go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
