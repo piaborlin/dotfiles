@@ -15,4 +15,5 @@ _link dotfiles/.zshrc ${HOME}/.zshrc
 
 _link ${HOME}/dotfiles/scripts/travis-script.bash /usr/local/bin/travis-script
 _link ${HOME}/dotfiles/scripts/rediscloud-cli.bash /usr/local/bin/rediscloud-cli
+_link ${HOME}/dotfiles/scripts/dexer.bash /usr/local/bin/dexer
 _link ${HOME}/dotfiles/fish ${HOME}/.config
