@@ -12,3 +12,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Sets the variables in .env file to the environment
+with-env() {
+ env $(cat .env | xargs) "$@"
+}
