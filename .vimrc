@@ -22,6 +22,7 @@ call plug#end()
 
 " SETTINGS
 " ------------------------------------------------------------------------------
+set encoding=utf-8
 
 set nocompatible                            " Enable vim-specific features
 filetype off                                " Reset filetype detection
